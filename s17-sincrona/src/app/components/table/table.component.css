@@ -1,0 +1,13 @@
+button {
+    color: cornflowerblue;
+}
+
+i {
+    color: cornflowerblue;
+    cursor: pointer;
+    transition: .5s;
+}
+
+i:hover {
+    color: red;
+}

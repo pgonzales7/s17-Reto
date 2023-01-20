@@ -1,0 +1,19 @@
+<section class="tabla p-5">
+    <table class="table">
+        <thead>
+            <tr>
+                <th *ngFor="let head of headTable">{{ head }}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of filteredUsers">
+                <td>{{ data.nombre }}</td>
+                <td>{{ data.email }}</td>
+                <td>{{ data.telefono }}</td>
+                <td>{{ data.sujeto }}</td>
+                <td>{{ data.mensaje }}</td>
+                <td>{{ data.pais | titlecase }}</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
